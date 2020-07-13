@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EE9BF27324B7EDAA00ED00D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9BF27224B7EDAA00ED00D5 /* AppDelegate.m */; };
-		EE9BF27624B7EDAA00ED00D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9BF27524B7EDAA00ED00D5 /* ViewController.m */; };
 		EE9BF27824B7EDAC00ED00D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE9BF27724B7EDAC00ED00D5 /* Assets.xcassets */; };
-		EE9BF27B24B7EDAC00ED00D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE9BF27924B7EDAC00ED00D5 /* Main.storyboard */; };
-		EE9BF27E24B7EDAC00ED00D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9BF27D24B7EDAC00ED00D5 /* main.m */; };
 		EE9BF28924B7EDAC00ED00D5 /* OpenGL____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9BF28824B7EDAC00ED00D5 /* OpenGL____Tests.m */; };
 		EE9BF29424B7EDAC00ED00D5 /* OpenGL____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE9BF29324B7EDAC00ED00D5 /* OpenGL____UITests.m */; };
+		EE9BF2A324B7EDBD00ED00D5 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9BF2A224B7EDBD00ED00D5 /* GLUT.framework */; };
+		EE9BF2A524B7EDCB00ED00D5 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9BF2A424B7EDCB00ED00D5 /* OpenGL.framework */; };
+		EE9BF2B924B7EEB100ED00D5 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EE9BF2B824B7EEB100ED00D5 /* main.cpp */; };
+		EE9BF2BA24B855DF00ED00D5 /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9BF2B624B7EDFB00ED00D5 /* libGLTools.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,14 +35,8 @@
 
 /* Begin PBXFileReference section */
 		EE9BF26E24B7EDAA00ED00D5 /* OpenGL图元绘制.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGL图元绘制.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE9BF27124B7EDAA00ED00D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		EE9BF27224B7EDAA00ED00D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EE9BF27424B7EDAA00ED00D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EE9BF27524B7EDAA00ED00D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EE9BF27724B7EDAC00ED00D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EE9BF27A24B7EDAC00ED00D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE9BF27C24B7EDAC00ED00D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EE9BF27D24B7EDAC00ED00D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EE9BF27F24B7EDAC00ED00D5 /* OpenGL____.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "OpenGL____.entitlements"; sourceTree = "<group>"; };
 		EE9BF28424B7EDAC00ED00D5 /* OpenGL图元绘制Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGL图元绘制Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE9BF28824B7EDAC00ED00D5 /* OpenGL____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OpenGL____Tests.m"; sourceTree = "<group>"; };
@@ -50,6 +44,24 @@
 		EE9BF28F24B7EDAC00ED00D5 /* OpenGL图元绘制UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OpenGL图元绘制UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE9BF29324B7EDAC00ED00D5 /* OpenGL____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "OpenGL____UITests.m"; sourceTree = "<group>"; };
 		EE9BF29524B7EDAC00ED00D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE9BF2A224B7EDBD00ED00D5 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		EE9BF2A424B7EDCB00ED00D5 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		EE9BF2A724B7EDFB00ED00D5 /* GLBatchBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLBatchBase.h; sourceTree = "<group>"; };
+		EE9BF2A824B7EDFB00ED00D5 /* math3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = math3d.h; sourceTree = "<group>"; };
+		EE9BF2A924B7EDFB00ED00D5 /* GLTriangleBatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTriangleBatch.h; sourceTree = "<group>"; };
+		EE9BF2AA24B7EDFB00ED00D5 /* GLBatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLBatch.h; sourceTree = "<group>"; };
+		EE9BF2AB24B7EDFB00ED00D5 /* GLMatrixStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMatrixStack.h; sourceTree = "<group>"; };
+		EE9BF2AC24B7EDFB00ED00D5 /* GLFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLFrame.h; sourceTree = "<group>"; };
+		EE9BF2AD24B7EDFB00ED00D5 /* GLFrustum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLFrustum.h; sourceTree = "<group>"; };
+		EE9BF2AE24B7EDFB00ED00D5 /* GLGeometryTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLGeometryTransform.h; sourceTree = "<group>"; };
+		EE9BF2AF24B7EDFB00ED00D5 /* GLShaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLShaderManager.h; sourceTree = "<group>"; };
+		EE9BF2B024B7EDFB00ED00D5 /* StopWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopWatch.h; sourceTree = "<group>"; };
+		EE9BF2B224B7EDFB00ED00D5 /* glxew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glxew.h; sourceTree = "<group>"; };
+		EE9BF2B324B7EDFB00ED00D5 /* wglew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wglew.h; sourceTree = "<group>"; };
+		EE9BF2B424B7EDFB00ED00D5 /* glew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glew.h; sourceTree = "<group>"; };
+		EE9BF2B524B7EDFB00ED00D5 /* GLTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTools.h; sourceTree = "<group>"; };
+		EE9BF2B624B7EDFB00ED00D5 /* libGLTools.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGLTools.a; sourceTree = "<group>"; };
+		EE9BF2B824B7EEB100ED00D5 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +69,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE9BF2BA24B855DF00ED00D5 /* libGLTools.a in Frameworks */,
+				EE9BF2A524B7EDCB00ED00D5 /* OpenGL.framework in Frameworks */,
+				EE9BF2A324B7EDBD00ED00D5 /* GLUT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +99,7 @@
 				EE9BF28724B7EDAC00ED00D5 /* OpenGL图元绘制Tests */,
 				EE9BF29224B7EDAC00ED00D5 /* OpenGL图元绘制UITests */,
 				EE9BF26F24B7EDAA00ED00D5 /* Products */,
+				EE9BF2A124B7EDBD00ED00D5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,15 +116,11 @@
 		EE9BF27024B7EDAA00ED00D5 /* OpenGL图元绘制 */ = {
 			isa = PBXGroup;
 			children = (
-				EE9BF27124B7EDAA00ED00D5 /* AppDelegate.h */,
-				EE9BF27224B7EDAA00ED00D5 /* AppDelegate.m */,
-				EE9BF27424B7EDAA00ED00D5 /* ViewController.h */,
-				EE9BF27524B7EDAA00ED00D5 /* ViewController.m */,
+				EE9BF2A624B7EDFB00ED00D5 /* include */,
 				EE9BF27724B7EDAC00ED00D5 /* Assets.xcassets */,
-				EE9BF27924B7EDAC00ED00D5 /* Main.storyboard */,
 				EE9BF27C24B7EDAC00ED00D5 /* Info.plist */,
-				EE9BF27D24B7EDAC00ED00D5 /* main.m */,
 				EE9BF27F24B7EDAC00ED00D5 /* OpenGL____.entitlements */,
+				EE9BF2B824B7EEB100ED00D5 /* main.cpp */,
 			);
 			path = "OpenGL图元绘制";
 			sourceTree = "<group>";
@@ -129,6 +141,45 @@
 				EE9BF29524B7EDAC00ED00D5 /* Info.plist */,
 			);
 			path = "OpenGL图元绘制UITests";
+			sourceTree = "<group>";
+		};
+		EE9BF2A124B7EDBD00ED00D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE9BF2B624B7EDFB00ED00D5 /* libGLTools.a */,
+				EE9BF2A424B7EDCB00ED00D5 /* OpenGL.framework */,
+				EE9BF2A224B7EDBD00ED00D5 /* GLUT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE9BF2A624B7EDFB00ED00D5 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				EE9BF2A724B7EDFB00ED00D5 /* GLBatchBase.h */,
+				EE9BF2A824B7EDFB00ED00D5 /* math3d.h */,
+				EE9BF2A924B7EDFB00ED00D5 /* GLTriangleBatch.h */,
+				EE9BF2AA24B7EDFB00ED00D5 /* GLBatch.h */,
+				EE9BF2AB24B7EDFB00ED00D5 /* GLMatrixStack.h */,
+				EE9BF2AC24B7EDFB00ED00D5 /* GLFrame.h */,
+				EE9BF2AD24B7EDFB00ED00D5 /* GLFrustum.h */,
+				EE9BF2AE24B7EDFB00ED00D5 /* GLGeometryTransform.h */,
+				EE9BF2AF24B7EDFB00ED00D5 /* GLShaderManager.h */,
+				EE9BF2B024B7EDFB00ED00D5 /* StopWatch.h */,
+				EE9BF2B124B7EDFB00ED00D5 /* GL */,
+				EE9BF2B524B7EDFB00ED00D5 /* GLTools.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		EE9BF2B124B7EDFB00ED00D5 /* GL */ = {
+			isa = PBXGroup;
+			children = (
+				EE9BF2B224B7EDFB00ED00D5 /* glxew.h */,
+				EE9BF2B324B7EDFB00ED00D5 /* wglew.h */,
+				EE9BF2B424B7EDFB00ED00D5 /* glew.h */,
+			);
+			path = GL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,7 +286,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE9BF27824B7EDAC00ED00D5 /* Assets.xcassets in Resources */,
-				EE9BF27B24B7EDAC00ED00D5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,9 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE9BF27624B7EDAA00ED00D5 /* ViewController.m in Sources */,
-				EE9BF27E24B7EDAC00ED00D5 /* main.m in Sources */,
-				EE9BF27324B7EDAA00ED00D5 /* AppDelegate.m in Sources */,
+				EE9BF2B924B7EEB100ED00D5 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,17 +344,6 @@
 			targetProxy = EE9BF29024B7EDAC00ED00D5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		EE9BF27924B7EDAC00ED00D5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EE9BF27A24B7EDAC00ED00D5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EE9BF29624B7EDAC00ED00D5 /* Debug */ = {
@@ -427,10 +464,16 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = CQNZ85QPJM;
 				ENABLE_HARDENED_RUNTIME = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/OpenGL图元绘制";
 				INFOPLIST_FILE = "OpenGL图元绘制/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpenGL图元绘制",
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ut.OpenGL----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -446,10 +489,16 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = CQNZ85QPJM;
 				ENABLE_HARDENED_RUNTIME = YES;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/OpenGL图元绘制";
 				INFOPLIST_FILE = "OpenGL图元绘制/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpenGL图元绘制",
+					"$(PROJECT_DIR)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ut.OpenGL----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
